@@ -487,7 +487,7 @@ index_html = """
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg px-3">
-    <a class="navbar-brand" href="#"><i class="fas fa-skull-crossbones me-2"></i>T3RROR DASHB0RD</a>
+    <a class="navbar-brand" href="#"><i class="fas fa-skull-crossbones me-2"></i>WAQAS DASHB0RD</a>
   </nav>
 
   <!-- Logout Button -->
@@ -2359,6 +2359,7 @@ def stop_chat_task(task_id):
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=20573, debug=True)
+
 
 
 
