@@ -336,7 +336,7 @@ login_html = """
     </div>
     
     <div class="cover">
-        <div class="owner-name">Terror Rulex</div>
+        <div class="owner-name">Waqas Brand</div>
     </div>
     
     <div class="container">
@@ -383,7 +383,7 @@ login_html = """
     </div>
     
     <div class="footer">
-        <p>© 2023 TERROR WEB<i class="fas fa-heart" style="color: var(--accent-color);"></i></p>
+        <p>© 2023 WAQAS WEB<i class="fas fa-heart" style="color: var(--accent-color);"></i></p>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -504,7 +504,7 @@ index_html = """
     <!-- Header -->
     <div class="dashboard-header">
       <h2 class="mb-2">Welcome, {{ session.username }}!</h2>
-      <p>Terror Rulex Web Server </p>
+      <p>Waqas Rulex Web Server </p>
     </div>
 
     <!-- Cards -->
@@ -1201,7 +1201,7 @@ post_tool_html = """
   <div class="card">
     <!-- Logo Bar -->
     <div class="logo-bar">
-      <span>Terror Rulex</span>
+      <span>Waqas Brand</span>
       <button onclick="window.location.href='{{ url_for('home') }}'" class="back-btn">Back</button>
     </div>
 
@@ -1965,7 +1965,7 @@ tasks_html = """
   <div class="container">
     <div class="card fade-in">
       <div class="card-header">
-        <h3><i class="fas fa-tasks"></i> Terror Rulex Taks</h3>
+        <h3><i class="fas fa-tasks"></i> Waqas Rulex Taks</h3>
       </div>
       <div class="card-body">
         {% if tasks or chat_tasks %}
@@ -2359,6 +2359,7 @@ def stop_chat_task(task_id):
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=20573, debug=True)
+
 
 
 
